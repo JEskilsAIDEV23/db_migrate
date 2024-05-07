@@ -56,7 +56,7 @@ def hello_world():
     members = AIDev23.query
     return render_template('index.html', members=members)
 
-# @app.route("/who")
-# def who():
-#     members = AIDev23.query
-#     return render_template('who.html', members=members)
+@app.route("/who")
+def who():
+    members = AIDev23.query
+    return render_template('who.html', members=members)
