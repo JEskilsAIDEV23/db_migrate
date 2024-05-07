@@ -68,6 +68,6 @@ if __name__ == '__main__':
         members = AIDev23.query
         if members.count() < 6:
             seed_db()
-        # seed_who()
+        seed_who()
 
 app.run(debug=True, port=4500)

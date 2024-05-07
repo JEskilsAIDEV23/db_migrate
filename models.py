@@ -9,4 +9,4 @@ class AIDev23(db.Model):
     __tablename__ = 'team'
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.Text)
-    # description = db.Column(db.Text)
+    description = db.Column(db.Text)
