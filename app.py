@@ -54,7 +54,7 @@ def seed_who():
 @app.route("/")
 def hello_world():
     members = AIDev23.query
-    return render_template('index.html', members=members)
+    return render_template('index.html')
 
 @app.route("/who")
 def who():
